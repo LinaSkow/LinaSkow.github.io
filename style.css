@@ -1,0 +1,43 @@
+.fullCard {
+    width: 800px;
+    border: 5px solid rgb(17, 148, 28);
+    border-radius: 10px;
+    border-style: dotted;
+    margin: 20px 100px;
+   
+    background-color: rgb(253, 255, 144);
+  }
+  .cardContent {
+      font-family: 'Amatic SC', cursive;
+      font-size: 35px;
+  }
+.cardText {
+    
+}
+
+header {
+    background-color:rgb(250, 235, 215);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+h2 {
+   font-size: 30px;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+background-image: url("muster.jpg");
+background-repeat: repeat;
+text-align: center;
+}
+img {
+    width: 600px;
+}
+footer {
+    font-family: 'Amatic SC', cursive; 
+    font-size: 24px;
+    background-color: rgb(250, 235, 215);
+}
