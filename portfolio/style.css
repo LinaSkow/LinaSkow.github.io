@@ -1,0 +1,223 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+section {
+    min-height: 100%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+h1, h3, a {
+    font-family:'Homemade Apple', cursive;
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4, p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(172, 169, 136);
+}
+
+hr {
+    border: 0;
+    width: 70%;
+    height: 2px;
+    background-color: rgb(172, 169, 136); 
+   }
+
+/*Header*****************/
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+}
+
+#logo{
+    width: 100px;
+    float: left;
+    margin: 10px 0px 0px 30px;
+}
+
+#logo img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+header nav ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    font-size: 24px;
+    color: rgb(172, 169, 136);
+    font-family:'Open Sans', sans-serif;
+}
+
+header nav ul li:hover{
+padding-top: 5px;
+}
+
+} 
+.navbar li {
+    display: inline;            /* Listenelemente nebeneinander */
+}
+
+
+
+/*HOME************/
+
+
+#home {
+    background-image: url("bilder/hg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.linie {
+    float: left;
+    margin: 10px auto auto 150px; 
+}
+
+#about {
+    margin-top: -100px;
+    font-size: 26px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutme {
+    font-family:'Open Sans', sans-serif;
+    margin: 20px auto 60px auto;
+    width: 700px;
+}
+.strich2 {
+    margin-top: 50px;
+}
+#text {
+    height: 90%;
+}
+
+#work {
+    background-color:#f0f0f0;
+    margin: 140px auto 0 auto;
+    height: 120%;
+}
+.work{
+    margin-top: 150px;
+}
+#projects {
+width: 900px;
+margin: 0 auto 0 auto;
+}
+
+#projects ul{
+    padding: 0;
+}
+
+#projects ul li {
+    float: left;
+   
+}
+
+#projects img {
+    border-radius: 5px;
+}
+
+#projects ul li a img:hover {
+    transform: scale(2);
+}
+
+.adress {
+    padding: 100px;
+}
+
+.flyer1 {
+    width: 300px;
+    
+}
+
+.ad1 {
+    width: 300px;
+}
+
+.plakat1 {
+    height: 300px;
+  
+}
+.plakat2 {
+    height: 300px;
+   
+}
+
+.flyer3 {
+    width:300px;
+}
+
+.lina {
+    height: 220px;
+    border-radius: 50%;
+    margin: -30px auto 0px;
+    transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
+  
+}
+
+.lina:hover {
+    opacity: 0.5;
+}
+
+.lina2 {
+    height: 250px;
+    border-radius: 50%;  
+    transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
+}
+
+.lina2:hover {
+    opacity: 0.5;
+}
+
+/*CONTACT*****************************/
+
+#contact {
+    margin: -350px;
+}
+
+form input textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    
+    border-radius: 2px solid;
+    border-color:rgb(172, 169, 136);
+
+}
+
+form input {
+    width: 552px;
+    height: 30px;
+}
+
+form textarea {
+    width: 550px;
+    height: 200px;
+    resize: none;
+}
